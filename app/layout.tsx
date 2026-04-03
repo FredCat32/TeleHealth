@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: 'TreatCompare',
   },
+  other: {
+    'impact-site-verification': '4cef7297-b8cf-4e4c-93e9-b39476c21f7d',
+  },
 }
 
 const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID
@@ -27,7 +30,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="impact-site-verification" value="4cef7297-b8cf-4e4c-93e9-b39476c21f7d" />
         {GA4_ID && (
           <>
             <script
