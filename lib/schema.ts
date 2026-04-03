@@ -34,7 +34,7 @@ export function articleSchema({
     publisher: {
       '@type': 'Organization',
       name: 'TreatCompare',
-      url: 'https://treatcompare.com',
+      url: 'https://telehealthpick.com',
     },
     ...(url ? { url } : {}),
   }

@@ -74,8 +74,8 @@ export default function AboutPage() {
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">Contact</h2>
           <p className="text-gray-700 leading-relaxed">
             Have a question, correction, or partnership inquiry? Reach us at{' '}
-            <a href="mailto:hello@treatcompare.com" className="text-[#5B7A5F] hover:underline">
-              hello@treatcompare.com
+            <a href="mailto:hello@telehealthpick.com" className="text-[#5B7A5F] hover:underline">
+              hello@telehealthpick.com
             </a>
           </p>
         </section>

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   description:
     'Compare ED, weight loss, hair loss, and mental health telehealth services side by side. Find the right platform for your needs and budget.',
-  metadataBase: new URL('https://treatcompare.com'),
+  metadataBase: new URL('https://telehealthpick.com'),
   openGraph: {
     type: 'website',
     siteName: 'TreatCompare',

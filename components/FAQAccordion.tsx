@@ -3,8 +3,6 @@
 import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { ChevronDown } from 'lucide-react'
-import { faqSchema } from '@/lib/schema'
-
 type FAQItem = {
   question: string
   answer: string
@@ -21,15 +19,8 @@ export default function FAQAccordion({ faqs }: FAQAccordionProps) {
     setOpenIndex(openIndex === index ? null : index)
   }
 
-  const schema = faqSchema(faqs)
-
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
-      <div className="divide-y divide-gray-100 border border-gray-100 rounded-xl overflow-hidden">
+    <div className="divide-y divide-gray-100 border border-gray-100 rounded-xl overflow-hidden">
         {faqs.map((faq, index) => {
           const isOpen = openIndex === index
           return (
@@ -68,7 +59,6 @@ export default function FAQAccordion({ faqs }: FAQAccordionProps) {
             </div>
           )
         })}
-      </div>
-    </>
+    </div>
   )
 }

@@ -4,7 +4,7 @@ import PageWrapper from '@/components/PageWrapper'
 export const metadata: Metadata = {
   title: 'Disclaimer — TreatCompare',
   description:
-    'Important disclaimers for TreatCompare.com covering medical advice, affiliate relationships, pricing accuracy, and terms of use.',
+    'Important disclaimers for TelehealthPick.com covering medical advice, affiliate relationships, pricing accuracy, and terms of use.',
 }
 
 export default function DisclaimerPage() {
@@ -17,7 +17,7 @@ export default function DisclaimerPage() {
         <section className="mb-8">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">1. Not Medical Advice</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            The content published on TreatCompare.com is for informational and educational purposes
+            The content published on TelehealthPick.com is for informational and educational purposes
             only. It does not constitute medical advice, diagnosis, or treatment. Always seek the
             advice of a qualified healthcare provider before starting, stopping, or changing any
             medication or health program.
@@ -91,8 +91,8 @@ export default function DisclaimerPage() {
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">7. Contact</h2>
           <p className="text-gray-700 leading-relaxed">
             Questions about this disclaimer can be directed to{' '}
-            <a href="mailto:legal@treatcompare.com" className="text-[#5B7A5F] hover:underline">
-              legal@treatcompare.com
+            <a href="mailto:legal@telehealthpick.com" className="text-[#5B7A5F] hover:underline">
+              legal@telehealthpick.com
             </a>
           </p>
         </section>

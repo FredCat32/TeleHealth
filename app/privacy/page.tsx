@@ -127,8 +127,8 @@ export default function PrivacyPage() {
           </ul>
           <p className="text-gray-700 leading-relaxed mt-4">
             To exercise any of these rights, contact us at{' '}
-            <a href="mailto:privacy@treatcompare.com" className="text-[#5B7A5F] hover:underline">
-              privacy@treatcompare.com
+            <a href="mailto:privacy@telehealthpick.com" className="text-[#5B7A5F] hover:underline">
+              privacy@telehealthpick.com
             </a>
           </p>
         </section>

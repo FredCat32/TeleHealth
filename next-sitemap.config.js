@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://treatcompare.com',
+  siteUrl: process.env.SITE_URL || 'https://telehealthpick.com',
   generateRobotsTxt: true,
   exclude: ['/go/*', '/go'],
   robotsTxtOptions: {
