@@ -1,0 +1,58 @@
+import type { Metadata } from 'next'
+import './globals.css'
+import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
+
+export const metadata: Metadata = {
+  title: {
+    default: 'TreatCompare — Compare Telehealth Platforms',
+    template: '%s | TreatCompare',
+  },
+  description:
+    'Compare ED, weight loss, hair loss, and mental health telehealth services side by side. Find the right platform for your needs and budget.',
+  metadataBase: new URL('https://treatcompare.com'),
+  openGraph: {
+    type: 'website',
+    siteName: 'TreatCompare',
+  },
+}
+
+const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <head>
+        {GA4_ID && (
+          <>
+            <script
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}
+            />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${GA4_ID}');
+                `,
+              }}
+            />
+          </>
+        )}
+      </head>
+      <body className="min-h-screen flex flex-col">
+        <NavBar />
+        <main className="flex-1">
+          {children}
+        </main>
+        <Footer />
+      </body>
+    </html>
+  )
+}
