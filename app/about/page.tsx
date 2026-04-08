@@ -17,16 +17,21 @@ export default function AboutPage() {
         </p>
 
         <section className="mb-10">
+          <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">Who runs this site</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            TelehealthPick was built by Matthew Irving, based in Conshohocken, PA. Matthew works in pharmaceutical marketing and has spent years watching people struggle to navigate their medication options — not because the treatments don't exist, but because finding them is unnecessarily complicated. Telehealth platforms have made getting the right medication significantly easier for a lot of people, and this site exists to make choosing between them easier still.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            TelehealthPick is independent. It is not employed by, affiliated with, or owned by any telehealth company. Recommendations are based on independent research, public pricing data, and direct platform evaluation.
+          </p>
+        </section>
+
+        <section className="mb-10">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">What is TelehealthPick?</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             TelehealthPick is an independent comparison platform for telehealth services. We cover
             erectile dysfunction treatment, GLP-1 weight loss programs, hair loss, women&apos;s health,
             and mental health — comparing the leading platforms on price, quality, and experience.
-          </p>
-          <p className="text-gray-700 leading-relaxed">
-            We are not employed by, affiliated with, or owned by any telehealth company. Our
-            recommendations are based on independent research, public pricing data, and user
-            experience testing.
           </p>
         </section>
 
@@ -37,10 +42,11 @@ export default function AboutPage() {
             consistent methodology:
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
-            <li>We research public pricing, terms of service, and platform policies</li>
-            <li>We consult clinical sources for medical accuracy</li>
+            <li>We research public pricing, terms of service, and platform policies directly from each provider</li>
+            <li>We evaluate platforms on medication range, consultation process, shipping, customer service track record, and total cost including fees</li>
+            <li>We consult clinical sources for medical accuracy and flag where information is general vs. personalised</li>
             <li>We update articles when pricing or platform policies change</li>
-            <li>We clearly label any sections that are opinion vs. fact</li>
+            <li>We clearly label opinion vs. fact, and disclose where affiliate relationships exist</li>
           </ul>
           <p className="text-gray-700 leading-relaxed">
             Affiliate relationships do not influence our editorial rankings. If a platform doesn&apos;t
