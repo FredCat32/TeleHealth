@@ -9,9 +9,9 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
-  title: 'Hims Review 2026: Pricing, ED Medication & Is It Worth It?',
+  title: 'Hims Review 2026: Is It Worth It? Pricing, Meds & Honest Take',
   description:
-    'In-depth Hims review covering exact pricing, medication options, how the consultation works, and who Hims is (and isn\'t) best for in 2026.',
+    'Hims ED treatment starts at $25/month (subscription) for generic sildenafil or tadalafil. No video call needed. We cover exact pricing, chewable options, bundle value, and who should skip it.',
 }
 
 const programs = getProgramsByIds(['hims'])

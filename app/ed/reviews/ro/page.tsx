@@ -9,9 +9,9 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
-  title: 'Ro Review 2026: ED Treatment, Weight Loss & Is It Worth It?',
+  title: 'Ro Review 2026: ED Pricing, Weight Loss & Is It Worth It?',
   description:
-    "In-depth Ro review covering ED treatment pricing, the Ro Body weight loss program, how the consultation works, and who Ro is best for in 2026.",
+    'Ro ED treatment starts from $34/month. No subscription, no video call. Also covers GLP-1 weight loss. We compare Ro to Roman and break down when the higher price is actually worth it.',
 }
 
 const programs = getProgramsByIds(['ro'])
