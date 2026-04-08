@@ -80,7 +80,7 @@ export default function RexMDReviewPage() {
           <div className="flex flex-wrap items-start gap-6 mb-5">
             <div>
               <p className="text-xs font-semibold uppercase tracking-wider text-[#8A8A8C] mb-1">
-                TreatCompare Rating
+                TelehealthPick Rating
               </p>
               <RatingStars rating={3.9} showNumber={true} />
             </div>

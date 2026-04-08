@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — TreatCompare',
+  title: 'Privacy Policy — TelehealthPick',
   description:
-    'TreatCompare privacy policy covering data collection, Google Analytics, email subscriptions, cookies, and your rights.',
+    'TelehealthPick privacy policy covering data collection, Google Analytics, email subscriptions, cookies, and your rights.',
 }
 
 export default function PrivacyPage() {
@@ -17,7 +17,7 @@ export default function PrivacyPage() {
         <section className="mb-8">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">1. Information We Collect</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            TreatCompare collects information in the following ways:
+            TelehealthPick collects information in the following ways:
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             <li>
@@ -88,7 +88,7 @@ export default function PrivacyPage() {
         <section className="mb-8">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">4. Cookies</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            TreatCompare uses the following types of cookies:
+            TelehealthPick uses the following types of cookies:
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             <li>
@@ -109,7 +109,7 @@ export default function PrivacyPage() {
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">5. Third-Party Links</h2>
           <p className="text-gray-700 leading-relaxed">
             Our site contains links to third-party platforms. When you click these links, you are
-            subject to the privacy policies of those platforms. TreatCompare is not responsible for
+            subject to the privacy policies of those platforms. TelehealthPick is not responsible for
             the data practices of third-party sites.
           </p>
         </section>

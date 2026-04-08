@@ -1,6 +1,6 @@
-# TreatCompare
+# TelehealthPick
 
-TreatCompare is an independent telehealth comparison platform. We compare online medical services across ED treatment, weight loss (GLP-1), hair loss, women's health, and mental health.
+TelehealthPick is an independent telehealth comparison platform. We compare online medical services across ED treatment, weight loss (GLP-1), hair loss, women's health, and mental health.
 
 ## What this site does
 
@@ -18,7 +18,7 @@ We earn affiliate commissions when users click through and sign up with partner 
 
 ## Medical disclaimer
 
-TreatCompare does not provide medical advice. All content is for informational purposes only. We are not licensed medical providers. Users should consult a qualified healthcare provider before starting any medication.
+TelehealthPick does not provide medical advice. All content is for informational purposes only. We are not licensed medical providers. Users should consult a qualified healthcare provider before starting any medication.
 
 ## Coverage areas
 

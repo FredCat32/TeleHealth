@@ -5,15 +5,15 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: {
-    default: 'TreatCompare — Compare Telehealth Platforms',
-    template: '%s | TreatCompare',
+    default: 'TelehealthPick — Compare Telehealth Platforms',
+    template: '%s | TelehealthPick',
   },
   description:
     'Compare ED, weight loss, hair loss, and mental health telehealth services side by side. Find the right platform for your needs and budget.',
   metadataBase: new URL('https://telehealthpick.com'),
   openGraph: {
     type: 'website',
-    siteName: 'TreatCompare',
+    siteName: 'TelehealthPick',
   },
   icons: {
     icon: [

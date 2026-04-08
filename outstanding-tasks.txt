@@ -1,0 +1,24 @@
+TelehealthPick — outstanding tasks:
+
+- Add real GA4 measurement ID to Vercel environment variables and redeploy
+- Fix FAQ answers on Hims review page
+- Fix FAQ answers on Rex MD review page
+- Verify Rex MD $19/month pricing on their actual site and correct if wrong
+- Write Roman vs Rex MD comparison page
+- Write Roman review page
+- Write cheapest tadalafil page
+- Add llms.txt file to public folder
+- Check Cloudflare is not blocking AI crawlers if using Cloudflare
+- Apply to Impact again in 60 days (reminder: early June)
+- Swap placeholder affiliate URLs to real links once Awin and CrakRevenue approve
+
+PhillyLegalGuide — outstanding tasks:
+
+- Confirm GA4 ID is in Vercel environment variables
+- Wait for DNS to resolve and SSL to generate
+- Set up Google Search Console once domain is live
+- Submit sitemap
+- Request indexing on key pages
+- Check quiz runs end to end on live site
+- Verify disclaimer text is present on all pages
+- Email three Philadelphia law firms introducing the site

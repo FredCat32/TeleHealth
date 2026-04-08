@@ -3,7 +3,7 @@ import Link from 'next/link'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
-  title: 'Telehealth Reviews — TreatCompare',
+  title: 'Telehealth Reviews — TelehealthPick',
   description:
     'In-depth reviews of every major telehealth platform. Honest, independent, regularly updated.',
 }

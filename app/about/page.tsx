@@ -2,24 +2,24 @@ import type { Metadata } from 'next'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
-  title: 'About TreatCompare',
+  title: 'About TelehealthPick',
   description:
-    'TreatCompare is an independent telehealth comparison platform. Learn about our editorial standards, how we review platforms, and our affiliate disclosure.',
+    'TelehealthPick is an independent telehealth comparison platform. Learn about our editorial standards, how we review platforms, and our affiliate disclosure.',
 }
 
 export default function AboutPage() {
   return (
     <PageWrapper>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-12 lg:py-16">
-        <h1 className="text-3xl sm:text-4xl font-bold text-[#1C1C1E] mb-4">About TreatCompare</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-[#1C1C1E] mb-4">About TelehealthPick</h1>
         <p className="text-lg text-gray-600 mb-10">
           Independent comparisons. No conflicts of interest. Just useful information.
         </p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">What is TreatCompare?</h2>
+          <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">What is TelehealthPick?</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            TreatCompare is an independent comparison platform for telehealth services. We cover
+            TelehealthPick is an independent comparison platform for telehealth services. We cover
             erectile dysfunction treatment, GLP-1 weight loss programs, hair loss, women&apos;s health,
             and mental health — comparing the leading platforms on price, quality, and experience.
           </p>
@@ -33,7 +33,7 @@ export default function AboutPage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">Our Editorial Standards</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Every comparison and review on TreatCompare is written by our editorial team using a
+            Every comparison and review on TelehealthPick is written by our editorial team using a
             consistent methodology:
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
@@ -51,7 +51,7 @@ export default function AboutPage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">Affiliate Disclosure</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            TreatCompare earns revenue through affiliate partnerships. When you click a link and
+            TelehealthPick earns revenue through affiliate partnerships. When you click a link and
             make a purchase, we may receive a commission — at no extra cost to you. This is how
             we fund the site and keep our content free.
           </p>
@@ -64,7 +64,7 @@ export default function AboutPage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">Medical Disclaimer</h2>
           <p className="text-gray-700 leading-relaxed">
-            TreatCompare does not provide medical advice. The information on this site is for
+            TelehealthPick does not provide medical advice. The information on this site is for
             informational and comparison purposes only. Always consult a licensed healthcare
             provider before starting any new medication or treatment.
           </p>

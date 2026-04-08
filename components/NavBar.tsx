@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 
@@ -21,8 +22,9 @@ export default function NavBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="font-bold text-xl text-[#1C1C1E] tracking-tight">
-            TreatCompare
+          <Link href="/" className="flex items-center gap-2 font-bold text-xl text-[#1C1C1E] tracking-tight">
+            <Image src="/favicon-32x32.png" alt="" width={24} height={24} className="rounded-sm" />
+            TelehealthPick
           </Link>
 
           {/* Desktop nav */}

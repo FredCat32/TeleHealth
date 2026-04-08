@@ -207,7 +207,7 @@ export default function QuizResults({ answers, ranked }: QuizResultsProps) {
           Share on Reddit
         </a>
         <a
-          href={`https://x.com/intent/tweet?url=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}&text=${encodeURIComponent(`I used @TreatCompare to find the best ${concernLabel} telehealth platform`)}`}
+          href={`https://x.com/intent/tweet?url=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}&text=${encodeURIComponent(`I used @TelehealthPick to find the best ${concernLabel} telehealth platform`)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm text-gray-600 hover:text-black border border-gray-200 hover:border-black px-3 py-1.5 rounded-lg transition-colors"

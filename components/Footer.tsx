@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -8,7 +9,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <span className="font-bold text-lg text-[#1C1C1E]">TreatCompare</span>
+            <span className="flex items-center gap-2 font-bold text-lg text-[#1C1C1E]">
+              <Image src="/favicon-32x32.png" alt="" width={20} height={20} className="rounded-sm" />
+              TelehealthPick
+            </span>
             <p className="mt-2 text-sm text-gray-500 leading-relaxed">
               Independent comparisons of telehealth platforms to help you find the right care.
             </p>
@@ -81,12 +85,12 @@ export default function Footer() {
 
         <div className="border-t border-gray-100 pt-6">
           <p className="text-xs text-gray-400 leading-relaxed mb-2">
-            <strong>Affiliate disclosure:</strong> TreatCompare may earn a commission when you click
+            <strong>Affiliate disclosure:</strong> TelehealthPick may earn a commission when you click
             affiliate links and make a purchase. This does not affect our editorial independence or
             the prices you pay. We only recommend services we believe provide genuine value.
           </p>
           <p className="text-xs text-gray-400">
-            &copy; {year} TreatCompare. All rights reserved. This site is for informational
+            &copy; {year} TelehealthPick. All rights reserved. This site is for informational
             purposes only and does not constitute medical advice.
           </p>
         </div>

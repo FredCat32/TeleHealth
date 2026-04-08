@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
-  title: 'Disclaimer — TreatCompare',
+  title: 'Disclaimer — TelehealthPick',
   description:
     'Important disclaimers for TelehealthPick.com covering medical advice, affiliate relationships, pricing accuracy, and terms of use.',
 }
@@ -23,7 +23,7 @@ export default function DisclaimerPage() {
             medication or health program.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            TreatCompare is not a medical provider. We do not prescribe medications, provide
+            TelehealthPick is not a medical provider. We do not prescribe medications, provide
             diagnoses, or give individualized health advice.
           </p>
         </section>
@@ -31,7 +31,7 @@ export default function DisclaimerPage() {
         <section className="mb-8">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">2. Affiliate Relationships</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            TreatCompare participates in affiliate marketing programs. We may earn a commission
+            TelehealthPick participates in affiliate marketing programs. We may earn a commission
             when visitors click links to partner platforms and make a purchase. This commission
             is paid by the merchant and does not add any cost to you.
           </p>
@@ -48,13 +48,13 @@ export default function DisclaimerPage() {
         <section className="mb-8">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">3. Pricing Accuracy</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Pricing information on TreatCompare is based on publicly available data and is updated
+            Pricing information on TelehealthPick is based on publicly available data and is updated
             regularly. However, telehealth platform pricing can change at any time without notice.
             Always verify current pricing directly with the provider before making a purchase
             decision.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            TreatCompare is not responsible for any discrepancies between prices listed on this site
+            TelehealthPick is not responsible for any discrepancies between prices listed on this site
             and prices charged by third-party platforms.
           </p>
         </section>
@@ -62,7 +62,7 @@ export default function DisclaimerPage() {
         <section className="mb-8">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">4. Independence</h2>
           <p className="text-gray-700 leading-relaxed">
-            TreatCompare is an independent comparison platform. We are not owned by, employed by,
+            TelehealthPick is an independent comparison platform. We are not owned by, employed by,
             or financially invested in any telehealth company reviewed on this site. Our editorial
             team makes ranking decisions independently, without direction from commercial partners.
           </p>
@@ -71,7 +71,7 @@ export default function DisclaimerPage() {
         <section className="mb-8">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">5. Third-Party Links</h2>
           <p className="text-gray-700 leading-relaxed">
-            This website contains links to third-party websites. TreatCompare is not responsible
+            This website contains links to third-party websites. TelehealthPick is not responsible
             for the content, privacy practices, or accuracy of information on external sites. We
             encourage you to review the terms of service and privacy policies of any platform
             before making a purchase.
@@ -81,7 +81,7 @@ export default function DisclaimerPage() {
         <section className="mb-8">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">6. No Warranties</h2>
           <p className="text-gray-700 leading-relaxed">
-            TreatCompare provides this website on an &quot;as is&quot; and &quot;as available&quot; basis without
+            TelehealthPick provides this website on an &quot;as is&quot; and &quot;as available&quot; basis without
             warranties of any kind, either express or implied. We do not warrant that the
             information on this site is complete, accurate, or up to date.
           </p>

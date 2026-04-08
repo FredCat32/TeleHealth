@@ -24,7 +24,7 @@ export default function ArticleLayout({
   description,
   publishDate,
   updatedDate,
-  author = 'TreatCompare Editorial Team',
+  author = 'TelehealthPick Editorial Team',
   showDisclosure = true,
   faqs,
   tocItems,

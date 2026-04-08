@@ -70,7 +70,7 @@ const posts: Record<string, {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = posts[params.slug]
   if (!post) {
-    return { title: 'Post Not Found — TreatCompare' }
+    return { title: 'Post Not Found — TelehealthPick' }
   }
   return {
     title: post.title,
