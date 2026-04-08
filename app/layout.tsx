@@ -15,6 +15,13 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: 'TreatCompare',
   },
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
+  },
   other: {
     'impact-site-verification': '4cef7297-b8cf-4e4c-93e9-b39476c21f7d',
   },
