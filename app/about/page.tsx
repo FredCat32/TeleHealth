@@ -76,14 +76,39 @@ export default function AboutPage() {
           </p>
         </section>
 
-        <section>
+        <section className="mb-10">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">Contact</h2>
           <p className="text-gray-700 leading-relaxed">
-            Have a question, correction, or partnership inquiry? Reach us at{' '}
+            Have a question or correction? Reach us at{' '}
             <a href="mailto:hello@telehealthpick.com" className="text-[#5B7A5F] hover:underline">
               hello@telehealthpick.com
             </a>
           </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-[#1C1C1E] mb-3">Work With Us</h2>
+          <p className="text-gray-700 leading-relaxed mb-5">
+            TelehealthPick is building an audience of people actively researching telehealth options before making a purchase decision. If you represent a telehealth platform or health service, we are open to partnership conversations.
+          </p>
+          <div className="p-5 rounded-[12px] bg-[#F0EDE6] border border-[#E8E7E3]">
+            <p className="text-sm font-semibold text-[#1C1C1E] mb-3">Partnership opportunities include:</p>
+            <ul className="text-sm text-gray-700 space-y-2 mb-4">
+              <li className="flex gap-2"><span className="text-[#5B7A5F] mt-0.5">→</span>Affiliate program partnerships</li>
+              <li className="flex gap-2"><span className="text-[#5B7A5F] mt-0.5">→</span>Sponsored content and featured placements</li>
+              <li className="flex gap-2"><span className="text-[#5B7A5F] mt-0.5">→</span>Exclusive offers for our readers</li>
+              <li className="flex gap-2"><span className="text-[#5B7A5F] mt-0.5">→</span>Direct advertising arrangements</li>
+            </ul>
+            <p className="text-sm text-gray-600 mb-4">
+              All partnerships are clearly disclosed to readers. Our editorial rankings remain independent regardless of commercial relationships.
+            </p>
+            <a
+              href="mailto:partnerships@telehealthpick.com"
+              className="inline-block bg-[#2D5A35] hover:bg-[#234830] text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors"
+            >
+              Get in touch
+            </a>
+          </div>
         </section>
       </div>
     </PageWrapper>
