@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Men's Health Quiz — Find the Right Telehealth Platform",
   description:
     "Personalized telehealth recommendations for men. Compare ED, hair loss, testosterone, and weight loss platforms in under 2 minutes.",
+  robots: { index: false },
 }
 
 export default function QuizMalePage() {

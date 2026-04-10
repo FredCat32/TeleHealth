@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: 'Find Your Telehealth Match — Free Quiz',
   description:
     'Answer 5 quick questions to find the best telehealth platform for your health concern, budget, and preferences.',
+  robots: { index: false },
 }
 
 export default function QuizPage() {

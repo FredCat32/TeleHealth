@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Women's Health Quiz — Find the Right Telehealth Platform",
   description:
     "Personalized telehealth recommendations for women. Compare birth control, weight loss, menopause, and mental health platforms in under 2 minutes.",
+  robots: { index: false },
 }
 
 export default function QuizFemalePage() {
