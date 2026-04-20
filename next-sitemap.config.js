@@ -1,8 +1,8 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://telehealthpick.com',
+  siteUrl: process.env.SITE_URL || 'https://www.telehealthpick.com',
   generateRobotsTxt: true,
-  exclude: ['/go/*', '/go'],
+  exclude: ['/go/*', '/go', '/quiz', '/quiz/*'],
   robotsTxtOptions: {
     additionalSitemaps: [],
     policies: [
