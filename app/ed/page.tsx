@@ -55,6 +55,20 @@ const comparisons = [
   { title: 'Hims vs Roman vs Ro', href: '/ed/compare/hims-vs-roman-vs-ro', desc: 'Three-way comparison across the most popular platforms.' },
 ]
 
+const guides = [
+  { title: 'What Is Tadalafil?', href: '/ed/guide/what-is-tadalafil', desc: 'How generic Cialis works, dosing, and what to expect.' },
+  { title: 'Tadalafil vs Sildenafil', href: '/ed/guide/tadalafil-vs-sildenafil', desc: 'Which ED medication is right for you?' },
+  { title: 'How Does Cialis Work?', href: '/ed/guide/how-does-cialis-work', desc: 'Mechanism, onset, and duration explained.' },
+  { title: 'Is Hims Worth It?', href: '/ed/guide/is-hims-worth-it', desc: 'Honest verdict for ED, hair loss, and weight loss.' },
+  { title: 'Hims ED Pricing', href: '/ed/guide/hims-pricing', desc: 'Full breakdown of what Hims actually charges.' },
+  { title: 'Ro ED Pricing', href: '/ed/guide/ro-ed-pricing', desc: 'What Ro charges for ED medication in 2026.' },
+]
+
+const bestPicks = [
+  { title: 'Cheapest Tadalafil Online', href: '/ed/best/cheapest-tadalafil', desc: 'Lowest prices for generic Cialis across every major platform.' },
+  { title: 'Fastest ED Medication Delivery', href: '/ed/best/fastest-delivery', desc: 'Which platforms ship same-day or next-day?' },
+]
+
 const reviews = [
   { title: 'Hims Review', href: '/ed/reviews/hims', desc: 'Pricing, experience, and who Hims is actually best for.' },
   { title: 'Roman Review', href: '/ed/reviews/roman', desc: 'Our top overall pick — full breakdown.' },
@@ -167,7 +181,47 @@ export default function EDPage() {
           </div>
         </section>
 
-        {/* Section 4: FAQ */}
+        {/* Section 4: Guides */}
+        <section className="mb-14">
+          <h2 className="text-xl font-bold text-[#1C1C1E] mb-1">ED guides</h2>
+          <p className="text-sm text-[#8A8A8C] mb-5">Learn about medications, pricing, and what to expect.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {guides.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="block p-4 bg-white border border-[#E8E7E3] rounded-[12px] hover:border-[#5B7A5F] hover:shadow-sm transition-all group"
+              >
+                <span className="font-semibold text-[#1C1C1E] block mb-1 group-hover:text-[#5B7A5F] transition-colors">
+                  {item.title} →
+                </span>
+                <span className="text-sm text-[#8A8A8C]">{item.desc}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Section 5: Best picks */}
+        <section className="mb-14">
+          <h2 className="text-xl font-bold text-[#1C1C1E] mb-1">Best picks</h2>
+          <p className="text-sm text-[#8A8A8C] mb-5">Shopping for a specific priority?</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {bestPicks.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="block p-4 bg-white border border-[#E8E7E3] rounded-[12px] hover:border-[#5B7A5F] hover:shadow-sm transition-all group"
+              >
+                <span className="font-semibold text-[#1C1C1E] block mb-1 group-hover:text-[#5B7A5F] transition-colors">
+                  {item.title} →
+                </span>
+                <span className="text-sm text-[#8A8A8C]">{item.desc}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Section 6: FAQ */}
         <section className="mb-14">
           <h2 className="text-xl font-bold text-[#1C1C1E] mb-5">Common questions</h2>
           <Suspense fallback={null}>
