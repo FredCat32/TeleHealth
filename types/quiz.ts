@@ -9,6 +9,7 @@ export type HealthConcern =
   | 'birthcontrol'
   | 'menopause'
   | 'uti'
+  | 'hormones'
   | 'general'
 
 export type QuizAnswers = {

@@ -48,6 +48,7 @@ export default function QuizResults({ answers, ranked }: QuizResultsProps) {
         birthcontrol: 'birth control',
         menopause: 'menopause care',
         uti: 'UTI treatment',
+        hormones: 'hormone therapy',
         general: 'general health',
       }[answers.concern] ?? answers.concern
     : 'your health concern'

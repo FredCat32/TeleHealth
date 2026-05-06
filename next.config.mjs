@@ -57,6 +57,11 @@ const nextConfig = {
         destination: process.env.AFFILIATE_SPROUT_URL || '/',
         permanent: false,
       },
+      {
+        source: '/go/gala',
+        destination: process.env.AFFILIATE_GALA_URL || '/',
+        permanent: false,
+      },
     ]
   },
 }

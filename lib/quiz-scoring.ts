@@ -115,6 +115,7 @@ export function generateMatchReason(program: AffiliateProgram, answers: Partial<
       birthcontrol: 'birth control',
       menopause: 'menopause care',
       uti: 'UTI treatment',
+      hormones: 'hormone therapy',
       general: 'general health',
     }
     const concernLabel = concernLabels[answers.concern as HealthConcern]
