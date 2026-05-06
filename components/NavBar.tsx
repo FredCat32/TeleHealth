@@ -12,6 +12,7 @@ const navLinks = [
   { label: 'Hair Loss', href: '/hair' },
   { label: "Women's", href: '/womens' },
   { label: 'Mental Health', href: '/mental' },
+  { label: 'Hormones', href: '/hormones' },
 ]
 
 export default function NavBar() {
