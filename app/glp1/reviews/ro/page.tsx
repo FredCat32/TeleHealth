@@ -9,6 +9,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/glp1/reviews/ro' },
   title: 'Ro Body Review 2026: GLP-1 Weight Loss Pricing & Is It Worth It?',
   description:
     'Ro Body offers semaglutide and tirzepatide through a structured weight loss program. Membership starts at $39/month — medication costs extra. We break down pricing, who it\'s for, and how it compares to Hers.',

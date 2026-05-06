@@ -8,6 +8,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/best/fastest-delivery' },
   title: 'Fastest ED Medication Delivery 2026: Which Platform Ships Quickest?',
   description:
     'Roman ships ED medication free in 2 business days on every order. We compared delivery times across Hims, Roman, Ro, and Rex MD so you know exactly what to expect.',
@@ -220,7 +221,8 @@ export default function FastestDeliveryPage() {
               Delivery speed is one factor. See how they compare on pricing, medication range, and customer service.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link href="/go/roman" className="btn-primary">Get started with Roman</Link>
+              <Link href="/go/roman"
+                rel="nofollow sponsored" className="btn-primary">Get started with Roman</Link>
               <Link href="/ed/compare/roman-vs-rex-md" className="btn-secondary">Roman vs Rex MD →</Link>
             </div>
           </div>

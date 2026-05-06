@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/privacy' },
   title: 'Privacy Policy — TelehealthPick',
   description:
     'TelehealthPick privacy policy covering data collection, Google Analytics, email subscriptions, cookies, and your rights.',

@@ -8,6 +8,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/best/cheapest-tadalafil' },
   title: 'Cheapest Tadalafil Online 2026: Platform-by-Platform Price Breakdown',
   description:
     'Where to find the cheapest generic tadalafil in 2026. We compared Rex MD, Roman, Hims, and Ro on per-dose price, daily tadalafil cost, and total cost with shipping.',
@@ -252,13 +253,15 @@ export default function CheapestTadalafilPage() {
               <p className="text-xs font-semibold uppercase tracking-wider text-[#5B7A5F] mb-2">Best per-dose price</p>
               <p className="font-bold text-lg text-[#1C1C1E] mb-2">Rex MD</p>
               <p className="text-sm text-[#4A4A4C] mb-4">From $2/dose. No subscription. Standard USPS shipping or paid expedited.</p>
-              <Link href="/go/rexmd" className="btn-secondary text-sm">Get started with Rex MD</Link>
+              <Link href="/go/rexmd"
+                rel="nofollow sponsored" className="btn-secondary text-sm">Get started with Rex MD</Link>
             </div>
             <div className="p-5 rounded-[12px] border border-[#E8E7E3] bg-[#F7F4EF]">
               <p className="text-xs font-semibold uppercase tracking-wider text-[#8A8A8C] mb-2">Best total value</p>
               <p className="font-bold text-lg text-[#1C1C1E] mb-2">Roman</p>
               <p className="text-sm text-[#4A4A4C] mb-4">From $4/dose. No subscription. Free 2-day shipping on every order. Daily tadalafil available.</p>
-              <Link href="/go/roman" className="btn-primary text-sm">Get started with Roman</Link>
+              <Link href="/go/roman"
+                rel="nofollow sponsored" className="btn-primary text-sm">Get started with Roman</Link>
             </div>
           </div>
 

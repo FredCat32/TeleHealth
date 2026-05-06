@@ -8,6 +8,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/guide/what-is-tadalafil' },
   title: 'What Is Tadalafil? Uses, Dosage, and Side Effects (2026)',
   description:
     'Tadalafil is the generic version of Cialis — an ED medication that lasts up to 36 hours. This guide covers how it works, doses, side effects, and how to get it online.',

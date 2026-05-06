@@ -9,6 +9,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/compare/hims-vs-roman' },
   title: 'Hims vs Roman 2026: Which ED Telehealth Service Is Better?',
   description:
     'Independent side-by-side comparison of Hims and Roman for ED treatment. We cover pricing, medication options, how the consultation works, and which is better for your situation.',
@@ -331,7 +332,8 @@ export default function HimsVsRomanPage() {
               <Link href="/ed/quiz" className="btn-primary">
                 Get my personalised match
               </Link>
-              <Link href="/go/roman" className="btn-secondary">
+              <Link href="/go/roman"
+                rel="nofollow sponsored" className="btn-secondary">
                 Get started with Roman
               </Link>
             </div>

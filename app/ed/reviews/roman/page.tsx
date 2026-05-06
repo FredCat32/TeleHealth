@@ -9,6 +9,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/reviews/roman' },
   title: 'Roman Review 2026: Pricing, ED Medication & Is It Worth It?',
   description:
     "In-depth Roman review covering exact pricing, medication options, how the consultation works, and who Roman is (and isn't) best for in 2026.",

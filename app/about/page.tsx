@@ -1,7 +1,29 @@
 import type { Metadata } from 'next'
 import PageWrapper from '@/components/PageWrapper'
 
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Matthew Irving',
+  jobTitle: 'Founder',
+  worksFor: { '@type': 'Organization', name: 'TelehealthPick', url: 'https://www.telehealthpick.com' },
+  url: 'https://www.telehealthpick.com/about',
+  description: 'Pharmaceutical marketing professional and founder of TelehealthPick.',
+}
+
+const orgSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'TelehealthPick',
+  url: 'https://www.telehealthpick.com',
+  description: 'Independent comparison platform for telehealth services covering ED treatment, GLP-1 weight loss, hair loss, and mental health.',
+  foundingDate: '2025',
+  founder: { '@type': 'Person', name: 'Matthew Irving' },
+  contactPoint: { '@type': 'ContactPoint', email: 'hello@telehealthpick.com', contactType: 'customer support' },
+}
+
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/about' },
   title: 'About TelehealthPick',
   description:
     'TelehealthPick is an independent telehealth comparison platform. Learn about our editorial standards, how we review platforms, and our affiliate disclosure.',
@@ -10,6 +32,8 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <PageWrapper>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-12 lg:py-16">
         <h1 className="text-3xl sm:text-4xl font-bold text-[#1C1C1E] mb-4">About TelehealthPick</h1>
         <p className="text-lg text-gray-600 mb-10">

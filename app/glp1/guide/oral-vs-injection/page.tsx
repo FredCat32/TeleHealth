@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/FAQAccordion'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/glp1/guide/oral-vs-injection' },
   title: 'GLP-1 Pills vs Injections 2026: Which Is Right for You?',
   description:
     'Oral GLP-1 medications are now available through telehealth. We compare semaglutide and tirzepatide pills vs injections on effectiveness, convenience, cost, and who each format is actually best for.',

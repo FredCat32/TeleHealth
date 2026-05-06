@@ -4,6 +4,7 @@ import QuizWidget from '@/components/QuizWidget'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/mental/quiz' },
   title: 'Mental Health Quiz — Find the Right Therapy Platform',
   description:
     'Answer a few quick questions to find the best online therapy or mental health telehealth platform for your needs and budget.',

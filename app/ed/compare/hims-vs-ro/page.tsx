@@ -9,6 +9,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/compare/hims-vs-ro' },
   title: 'Hims vs Ro 2026: ED Treatment Cost, Meds & Which Is Worth It',
   description:
     'Hims vs Ro compared on ED treatment pricing, medication options, and who each is actually best for. Hims starts at $25/month (subscription). Ro starts at $34/month, no subscription required.',

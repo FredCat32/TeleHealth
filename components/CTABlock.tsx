@@ -47,6 +47,7 @@ export default function CTABlock({
               <Link
                 href={program.affiliateUrl}
                 onClick={() => handleClick(program, index)}
+                rel="nofollow sponsored"
                 className="block w-full text-center bg-[#2D5A35] hover:bg-[#234830] text-white font-semibold py-2.5 px-4 rounded-lg transition-colors text-sm"
               >
                 Get started

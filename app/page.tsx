@@ -4,6 +4,7 @@ import PageWrapper from '@/components/PageWrapper'
 import HomeSections from '@/components/HomeSections'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com' },
   title: 'TelehealthPick — Compare Telehealth Platforms',
   description:
     'Compare ED, GLP-1 weight loss, hair loss, and mental health telehealth services side by side. Take our quiz to find your best match.',

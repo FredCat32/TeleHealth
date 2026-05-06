@@ -8,6 +8,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/glp1/compare/ro-vs-hers' },
   title: 'Ro Body vs Hers Weight Loss 2026: GLP-1 Pricing & Which to Choose',
   description:
     'Ro Body charges $149/month membership + medication. Hers starts at $165/month all-in. We compare pricing, medication options, clinical support, and who each platform is best for.',

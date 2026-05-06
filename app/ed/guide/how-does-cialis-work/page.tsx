@@ -8,6 +8,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/guide/how-does-cialis-work' },
   title: 'How Does Cialis Work? Mechanism, Timing, and What Affects It',
   description:
     'A plain-English explanation of how Cialis (tadalafil) works to treat ED — the mechanism, how long it takes, how long it lasts, and what can reduce its effectiveness.',

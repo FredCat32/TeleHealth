@@ -9,6 +9,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/reviews/rex-md' },
   title: 'Rex MD Review 2026: Cheapest ED Medication Online?',
   description:
     "In-depth Rex MD review covering exact pricing, medication options, how the consultation works, and whether the cheapest option is worth it in 2026.",

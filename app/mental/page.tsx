@@ -6,6 +6,8 @@ import CTABlock from '@/components/CTABlock'
 import { Suspense } from 'react'
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
+  alternates: { canonical: 'https://www.telehealthpick.com/mental' },
   title: 'Online Therapy & Mental Health Telehealth 2026: Compare Platforms',
   description:
     'Compare the best online therapy and mental health telehealth platforms. Find affordable therapy, psychiatry, and medication management.',

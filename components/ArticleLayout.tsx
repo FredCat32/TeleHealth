@@ -24,7 +24,7 @@ export default function ArticleLayout({
   description,
   publishDate,
   updatedDate,
-  author = 'TelehealthPick Editorial Team',
+  author = 'Matthew Irving',
   showDisclosure = true,
   faqs,
   tocItems,

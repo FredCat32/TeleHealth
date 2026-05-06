@@ -8,6 +8,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/guide/is-hims-worth-it' },
   title: 'Is Hims Worth It? Honest Answer for ED, Hair Loss & Weight Loss',
   description:
     'Is Hims worth it in 2026? For ED: yes if you want bundles or chewables, no if price is your priority. For hair loss: yes. For weight loss: mixed. Full breakdown by use case.',

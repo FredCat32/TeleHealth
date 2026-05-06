@@ -10,6 +10,7 @@ import { affiliatePrograms, getProgramsByIds } from '@/lib/affiliates'
 import { faqSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed' },
   title: 'ED Treatment Online 2026: Compare Hims, Roman, Ro & Rex MD',
   description:
     'Compare the best online ED treatment platforms side by side. Pricing, medication options, and who each service is best for — all in one place.',

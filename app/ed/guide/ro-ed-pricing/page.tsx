@@ -8,6 +8,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/guide/ro-ed-pricing' },
   title: 'Ro ED Medication Cost 2026: What Does Ro Charge for Tadalafil and Sildenafil?',
   description:
     'Ro ED medication starts from $34/month. No subscription required. We break down Ro pricing for sildenafil and tadalafil, compare it to Roman, and explain when the higher price is actually worth it.',
@@ -269,7 +270,8 @@ export default function RoEdPricingPage() {
           </div>
 
           <div className="flex flex-wrap gap-3">
-            <Link href="/go/ro" className="btn-primary">Get started with Ro</Link>
+            <Link href="/go/ro"
+                rel="nofollow sponsored" className="btn-primary">Get started with Ro</Link>
             <Link href="/ed/reviews/ro" className="btn-secondary">Full Ro review →</Link>
             <Link href="/ed/compare/hims-vs-ro" className="btn-secondary">Hims vs Ro →</Link>
           </div>

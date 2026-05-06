@@ -76,6 +76,7 @@ export default function AffiliateCard({
           <Link
             href={program.affiliateUrl}
             onClick={handleCTAClick}
+            rel="nofollow sponsored"
             className="block w-full text-center bg-[#2D5A35] hover:bg-[#234830] text-white font-semibold py-3 px-6 rounded-lg transition-colors"
           >
             Get started with {program.name}

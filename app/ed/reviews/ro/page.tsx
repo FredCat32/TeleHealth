@@ -9,6 +9,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/reviews/ro' },
   title: 'Ro Review 2026: ED Pricing, Weight Loss & Is It Worth It?',
   description:
     'Ro ED treatment starts from $34/month. No subscription, no video call. Also covers GLP-1 weight loss. We compare Ro to Roman and break down when the higher price is actually worth it.',

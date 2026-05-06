@@ -4,6 +4,7 @@ import QuizWidget from '@/components/QuizWidget'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/quiz' },
   title: 'ED Treatment Quiz — Find Your Best Match',
   description:
     'Answer 3 quick questions to find the best online ED treatment platform for your budget and preferences.',

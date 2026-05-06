@@ -9,6 +9,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/compare/hims-vs-roman-vs-ro' },
   title: 'Hims vs Roman vs Ro 2026: Three-Way ED Comparison',
   description:
     'Independent three-way comparison of Hims, Roman, and Ro for online ED treatment. Pricing, medications, consultation process, and who each platform is actually best for.',

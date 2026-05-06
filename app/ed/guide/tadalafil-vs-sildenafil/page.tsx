@@ -8,6 +8,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/guide/tadalafil-vs-sildenafil' },
   title: 'Tadalafil vs Sildenafil 2026: Which ED Medication Is Better?',
   description:
     'Tadalafil (generic Cialis) vs sildenafil (generic Viagra) — how they differ in duration, onset, side effects, and cost. Which is right for you?',

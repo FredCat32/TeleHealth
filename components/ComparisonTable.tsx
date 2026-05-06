@@ -90,6 +90,7 @@ export default function ComparisonTable({ programs, highlightId }: ComparisonTab
                       <Link
                         href={program.affiliateUrl}
                         onClick={() => handleCTAClick(program)}
+                        rel="nofollow sponsored"
                         className="inline-block bg-[#2D5A35] hover:bg-[#234830] text-white text-sm font-semibold py-2 px-4 rounded-lg transition-colors whitespace-nowrap"
                       >
                         Get started
@@ -147,6 +148,7 @@ export default function ComparisonTable({ programs, highlightId }: ComparisonTab
                 <Link
                   href={program.affiliateUrl}
                   onClick={() => handleCTAClick(program)}
+                  rel="nofollow sponsored"
                   className="block w-full text-center bg-[#2D5A35] hover:bg-[#234830] text-white text-sm font-semibold py-2.5 px-4 rounded-lg transition-colors"
                 >
                   Get started with {program.name}

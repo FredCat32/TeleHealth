@@ -6,6 +6,8 @@ import CTABlock from '@/components/CTABlock'
 import { Suspense } from 'react'
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
+  alternates: { canonical: 'https://www.telehealthpick.com/hair' },
   title: 'Hair Loss Treatment Online 2026: Compare Keeps, Hims & More',
   description:
     'Compare the best online hair loss treatment platforms. Find the most affordable finasteride and minoxidil from US telehealth providers.',

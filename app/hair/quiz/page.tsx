@@ -4,6 +4,7 @@ import QuizWidget from '@/components/QuizWidget'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/hair/quiz' },
   title: 'Hair Loss Quiz — Find the Best Treatment Platform',
   description:
     'Answer a few quick questions to find the best online hair loss treatment for your needs and budget.',

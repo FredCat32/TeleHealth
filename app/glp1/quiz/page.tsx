@@ -4,6 +4,7 @@ import QuizWidget from '@/components/QuizWidget'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/glp1/quiz' },
   title: 'Weight Loss Quiz — Find the Best GLP-1 Program',
   description:
     'Answer a few questions to find the best GLP-1 weight loss program for your needs and budget.',

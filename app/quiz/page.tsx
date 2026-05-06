@@ -4,6 +4,7 @@ import QuizWidget from '@/components/QuizWidget'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/quiz' },
   title: 'Find Your Telehealth Match — Free Quiz',
   description:
     'Answer 5 quick questions to find the best telehealth platform for your health concern, budget, and preferences.',

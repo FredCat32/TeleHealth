@@ -5,6 +5,7 @@ import PageWrapper from '@/components/PageWrapper'
 import QuizResults from '@/components/QuizResults'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/quiz/results' },
   title: 'Your Telehealth Recommendations',
   description: 'Personalized telehealth platform recommendations based on your quiz answers.',
   robots: { index: false },

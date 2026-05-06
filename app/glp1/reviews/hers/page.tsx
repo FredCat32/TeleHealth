@@ -9,6 +9,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/glp1/reviews/hers' },
   title: 'Hers Weight Loss Review 2026: GLP-1 Pricing, Oral Options & Is It Worth It?',
   description:
     'Hers offers GLP-1 injections from $165/month and oral weight loss medication from $69/month — no separate membership fee. We review pricing, medication options, and who Hers weight loss is best for.',

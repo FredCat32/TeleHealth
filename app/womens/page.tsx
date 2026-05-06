@@ -6,6 +6,8 @@ import CTABlock from '@/components/CTABlock'
 import { Suspense } from 'react'
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
+  alternates: { canonical: 'https://www.telehealthpick.com/womens' },
   title: "Women's Health Telehealth 2026: Compare Hers, Nurx & More",
   description:
     "Compare the best online women's health platforms for birth control, weight loss, menopause, UTI treatment, and mental health.",

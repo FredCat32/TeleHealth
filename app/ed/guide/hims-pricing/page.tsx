@@ -8,6 +8,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/guide/hims-pricing' },
   title: 'Hims ED Pricing 2026: Sildenafil, Tadalafil & What You Actually Pay',
   description:
     'Hims ED medication starts at $25/month on subscription. Generic sildenafil from $2/dose, tadalafil from $4/dose. Full breakdown of Hims pricing tiers, subscription vs one-time costs, and how it compares to Roman.',

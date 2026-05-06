@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/disclaimer' },
   title: 'Disclaimer — TelehealthPick',
   description:
     'Important disclaimers for TelehealthPick.com covering medical advice, affiliate relationships, pricing accuracy, and terms of use.',

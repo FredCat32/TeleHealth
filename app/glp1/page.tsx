@@ -9,6 +9,7 @@ import { affiliatePrograms, getProgramsByIds } from '@/lib/affiliates'
 import { faqSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/glp1' },
   title: 'GLP-1 Weight Loss Programs 2026: Compare Semaglutide & Tirzepatide Online',
   description:
     'Compare the best online GLP-1 weight loss programs. Ro Body starts at $39/month + medication. Hers starts at $165/month all-in. Find the right semaglutide or tirzepatide program for your situation.',

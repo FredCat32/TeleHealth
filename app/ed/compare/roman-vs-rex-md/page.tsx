@@ -9,6 +9,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/compare/roman-vs-rex-md' },
   title: 'Roman vs Rex MD 2026: Which Cheap ED Platform Is Worth It?',
   description:
     'Roman vs Rex MD compared side by side on price, shipping, medication options, and customer service. Which budget ED telehealth platform is actually worth using?',
@@ -263,7 +264,8 @@ export default function RomanVsRexMDPage() {
               Hims costs more per dose but adds hair loss bundling, chewable formats, and a more polished experience. Worth knowing if either of those features matter to you.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link href="/go/roman" className="btn-primary">Get started with Roman</Link>
+              <Link href="/go/roman"
+                rel="nofollow sponsored" className="btn-primary">Get started with Roman</Link>
               <Link href="/ed/compare/hims-vs-roman" className="btn-secondary">Hims vs Roman →</Link>
             </div>
           </div>

@@ -4,6 +4,7 @@ import QuizWidget from '@/components/QuizWidget'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/womens/quiz' },
   title: "Women's Health Quiz — Find the Right Platform",
   description:
     "Answer a few quick questions to find the best women's health telehealth platform for your needs.",

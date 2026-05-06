@@ -9,6 +9,7 @@ import PageWrapper from '@/components/PageWrapper'
 import { getProgramsByIds } from '@/lib/affiliates'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/ed/reviews/hims' },
   title: 'Hims Review 2026: Is It Worth It? Pricing, Meds & Honest Take',
   description:
     'Hims ED treatment starts at $25/month (subscription) for generic sildenafil or tadalafil. No video call needed. We cover exact pricing, chewable options, bundle value, and who should skip it.',

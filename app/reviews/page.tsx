@@ -3,6 +3,7 @@ import Link from 'next/link'
 import PageWrapper from '@/components/PageWrapper'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.telehealthpick.com/reviews' },
   title: 'Telehealth Reviews — TelehealthPick',
   description:
     'In-depth reviews of every major telehealth platform. Honest, independent, regularly updated.',
