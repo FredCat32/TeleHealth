@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Suspense } from 'react'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AffiliateCard from '@/components/AffiliateCard'
+import ComparisonTable from '@/components/ComparisonTable'
 import FAQAccordion from '@/components/FAQAccordion'
 import PageWrapper from '@/components/PageWrapper'
 import { affiliatePrograms, getProgramsByIds } from '@/lib/affiliates'
@@ -118,33 +119,11 @@ export default function GLP1Page() {
 
         {/* Quick price comparison */}
         <section id="compare" className="mb-14">
-          <h2 className="text-xl font-bold text-[#1C1C1E] mb-1">At a glance</h2>
+          <h2 className="text-xl font-bold text-[#1C1C1E] mb-1">All platforms compared</h2>
           <p className="text-sm text-[#8A8A8C] mb-5">All-in monthly estimates at starter doses. Prices increase at higher doses.</p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border-collapse">
-              <thead>
-                <tr className="bg-[#F0EDE6] text-[#1C1C1E]">
-                  <th className="text-left px-4 py-3 font-semibold border border-[#E8E7E3]">Provider</th>
-                  <th className="text-left px-4 py-3 font-semibold border border-[#E8E7E3]">Starting price</th>
-                  <th className="text-left px-4 py-3 font-semibold border border-[#E8E7E3]">Oral option</th>
-                  <th className="text-left px-4 py-3 font-semibold border border-[#E8E7E3]">Available to</th>
-                </tr>
-              </thead>
-              <tbody>
-                {[
-                  ['Hers', 'From $165/month (annual)', 'Yes — from $69/month', 'Women only'],
-                  ['Ro Body', 'From $448/month (membership + medication)', 'No', 'Men & women'],
-                ].map(([provider, price, oral, gender], i) => (
-                  <tr key={provider} className={i % 2 !== 0 ? 'bg-[#F7F4EF]' : ''}>
-                    <td className="px-4 py-3 border border-[#E8E7E3] font-medium">{provider}</td>
-                    <td className="px-4 py-3 border border-[#E8E7E3] text-[#4A4A4C]">{price}</td>
-                    <td className="px-4 py-3 border border-[#E8E7E3] text-[#4A4A4C]">{oral}</td>
-                    <td className="px-4 py-3 border border-[#E8E7E3] text-[#4A4A4C]">{gender}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <Suspense fallback={null}>
+            <ComparisonTable programs={glp1Programs} highlightId="sprout" />
+          </Suspense>
         </section>
 
         {/* Comparisons */}
