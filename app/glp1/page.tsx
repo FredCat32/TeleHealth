@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 }
 
 const glp1Programs = affiliatePrograms.filter((p) => p.concerns.includes('weightloss'))
-const topTwo = getProgramsByIds(['ro', 'hers'])
+const topThree = getProgramsByIds(['sprout', 'shed', 'hers'])
 
 const faqs = [
   {
@@ -53,8 +53,10 @@ const comparisons = [
 ]
 
 const reviews = [
-  { title: 'Ro Body Review', href: '/glp1/reviews/ro', desc: 'Structured GLP-1 program with coaching. Best for serious clinical support.' },
-  { title: 'Hers Weight Loss Review', href: '/glp1/reviews/hers', desc: 'Best value for women. Includes oral GLP-1 options from $69/month.' },
+  { title: 'Sprout Health Review', href: '/glp1/reviews/sprout', desc: 'Cheapest option — from $149/month with monthly check-ins included.' },
+  { title: 'ShedRx Review', href: '/glp1/reviews/shed', desc: 'Oral options, money-back guarantee, and FSA eligible. From $199/month.' },
+  { title: 'Hers Weight Loss Review', href: '/glp1/reviews/hers', desc: 'Best for women. Oral GLP-1 from $69/month.' },
+  { title: 'Ro Body Review', href: '/glp1/reviews/ro', desc: 'Most comprehensive program. Best clinical support.' },
 ]
 
 const guides = [
@@ -95,7 +97,7 @@ export default function GLP1Page() {
 
         {/* Top provider cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-          {topTwo.map((program, i) => (
+          {topThree.map((program, i) => (
             <Suspense key={program.id} fallback={null}>
               <AffiliateCard
                 program={program}
@@ -224,7 +226,7 @@ export default function GLP1Page() {
             for a personalised match.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {topTwo.map((program, i) => (
+            {topThree.map((program, i) => (
               <Suspense key={program.id} fallback={null}>
                 <AffiliateCard
                   program={program}

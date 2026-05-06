@@ -47,6 +47,16 @@ const nextConfig = {
         destination: process.env.AFFILIATE_REXMD_URL || '/',
         permanent: false,
       },
+      {
+        source: '/go/shed',
+        destination: process.env.AFFILIATE_SHED_URL || '/',
+        permanent: false,
+      },
+      {
+        source: '/go/sprout',
+        destination: process.env.AFFILIATE_SPROUT_URL || '/',
+        permanent: false,
+      },
     ]
   },
 }
