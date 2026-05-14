@@ -61,6 +61,7 @@ const reviews = [
 ]
 
 const guides = [
+  { title: 'Tirzepatide vs Semaglutide', href: '/glp1/guide/tirzepatide-vs-semaglutide', desc: 'Which GLP-1 medication produces better results — and which suits your situation.' },
   { title: 'Oral vs Injectable GLP-1', href: '/glp1/guide/oral-vs-injection', desc: 'Which format is right for you — pills or injections?' },
 ]
 
